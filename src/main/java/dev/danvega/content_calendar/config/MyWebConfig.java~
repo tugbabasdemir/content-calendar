@@ -1,0 +1,4 @@
+package dev.danvega.content_calendar.config;
+
+public class MyWebConfig {
+}
