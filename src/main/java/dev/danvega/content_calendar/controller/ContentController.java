@@ -56,7 +56,7 @@ public class ContentController {
         repository.deleteById(id);
     }
 
-    @GetMapping("/filter/{keyword}")
+    /*@GetMapping("/filter/{keyword}")
     public List<Content> findByTitle(@PathVariable String keyword) {
         return repository.findAllByTitleContains(keyword);
     }
@@ -64,5 +64,5 @@ public class ContentController {
     @GetMapping("/filter/status/{status}")
     public List<Content> findByStatus(@PathVariable Status status) {
         return repository.listByStatus(status);
-    }
+    }*/
 }
